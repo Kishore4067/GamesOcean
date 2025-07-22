@@ -1,0 +1,486 @@
+*{margin: 0;
+   padding: 0;
+    box-sizing: border-box;}
+
+
+.logo {font-size: 35px;
+       position: relative;
+       left: 20px;
+       color: rgb(132, 131, 133);
+       top:15px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+      
+      nav {display: flex;
+          }
+
+      nav ul {display: flex;
+        margin-top: 30px;
+        margin-left:340px;
+              }
+
+      nav ul li{display: flex;
+    }
+
+      nav ul li a {margin-left: 60px;
+                   color: white;
+                  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                   text-decoration: none;
+                   font-size:18px;
+                  font-weight: 600;}
+
+      nav ul li a:hover {color: red;
+                     transition: 0.4s;}
+
+    header{background-color: black;
+   
+      color: white;
+            height: 80px;}
+
+
+
+.container1{background-image: url(./img/a5afef26-d4d6-410f-a989-1c1f52ee945b.jpg);
+            height: 450px;
+            width: 100%;
+            background-position: center;
+        background-size: cover;}
+
+        
+.container2  {background-color:#121212 ;
+   height: 1250px;}
+
+   .container2  h1{color:white;
+     font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.cds1 {display: flex;
+ flex-wrap: wrap;
+  justify-content: center;
+
+gap: 90px;
+    
+}
+
+.cd1 {  margin-top: 80px;
+
+  background-color:white;
+ border-radius: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     height: 415px;
+    width: 250px;}
+
+
+.cd1:hover {
+        filter: drop-shadow(4px 4px 4px 4px rgb(0, 0, 0));
+  transform: scale(1.04) perspective(0px); 
+  transition: 0.4s;}
+
+
+.cd1 img {height: 250px;
+   border-radius: 15px;
+
+             margin-top: 30px;
+          position: relative;
+          left: 24px;
+        width: 200px;}
+
+.cd1 .title {position: relative;
+  padding-top:10px;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(241, 15, 15);
+ 
+          text-align: center;}
+
+.cd1 .price{
+padding-left: 170px;
+padding-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+  
+
+}
+
+.cd1 button {background:#1e90ff;
+   text-transform: uppercase;
+  cursor: pointer;
+     margin-top: 25px;
+      margin-left: 75px;
+  width: 100px;
+    border-radius: 5px;
+   border: none ;
+             height: 35px;}
+
+.cd1 button:hover {background-color: #121212;
+     transition: 0.6s;}
+  
+
+ 
+
+.cd1 button a {text-decoration: none;
+  font-weight: 600;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 15px;
+                color: rgb(255, 255, 255);}
+
+
+
+.container3  {background-color:#121212 ;
+   height: 1250px;}
+
+
+ .container3  h1{color:white;
+     font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  text-align: center;
+  font-style: normal;
+  font-size: 50px;
+  padding-top: 30px; }
+
+  .container4 {
+    padding-right: 80px;
+justify-content: center;
+    height: 310px;
+text-align: center;
+      padding-top: 80px;   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            display: flex;}
+
+
+  .first {width: 320px;
+      height: 232px;
+  margin-left: 50px;
+  padding-top: 50px;
+  
+  }
+ 
+  .first h4 a{font-size: 20px;
+  
+    color: white;
+    text-decoration: none
+ 
+          }
+
+  .first h4:hover{transform: translatex(7px);
+  
+          transition: 0.7s;}
+
+ 
+  .first ul {padding-top: 7px;
+      padding-left: 20px;}
+
+  .first ul li {list-style: none;
+        padding-top: 15px;}
+
+  .first ul li a {text-decoration: none;
+    font-size: 17px;
+                color: gray;}
+
+
+  footer  {background-color:#121212 ;
+    color: white;
+    height: 400px;
+  
+
+   }
+
+ 
+
+  .first ul li:hover {transform: translatex(7px);
+      
+          transition: 0.7s;}
+
+ 
+
+.container5  {background-color:#121212 ;
+ 
+   height: 700px;}
+
+  .container5 .image{justify-content: center;
+    display: flex;
+                      align-items: center;}
+
+.container5 h1 { color:white;
+     font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  padding-top: 30px;
+  text-align: center;   }
+
+  .container5 img {height: 500px;
+      margin-top: 30px;
+   
+                   width:850px;}
+
+    .marque {color: rgb(167, 164, 164);
+       font-size: 22px;
+       padding-top: 20px;
+
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+ 
+.marque a{text-decoration: none;
+  font-size: 23px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  color: rgb(226, 58, 58);
+}
+
+  @media (max-width: 500px) {
+
+
+    header {width: 100%;}
+
+
+    .logo i {position: relative;
+      top:5px;
+             left: 5px;}
+
+  .logo {font-size: 25px;
+   margin-left: 10px;
+         width: 200px;
+         display: flex;
+        position: relative;
+         left: 1px;
+       color: rgb(132, 131, 133);
+    
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+      
+  nav {display: block;}
+
+
+      nav ul { 
+              margin-left: -40px;
+              padding-top: 5px;
+        
+            
+              width: 200px;
+              border-color: white;
+              display: flex;
+              flex-direction: column;
+              position: relative;
+              top: 5px;
+            left: 0px;}
+
+       
+
+      nav ul li{display: block;
+     
+        padding-top:20px;
+     
+    }
+
+      nav ul li a {
+                   color: white;
+                  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                   text-decoration: none;
+                   font-size:16px;
+                  font-weight: 600;
+                }
+
+      nav ul li a:hover {color: red;
+        
+                  transition: 0.4s;}
+
+    header{background-color: black;
+          
+           width: 100%;
+            height:350px;}
+
+
+
+.container1{background-image: url(./img/a5afef26-d4d6-410f-a989-1c1f52ee945b.jpg);
+             height:130px;
+             width: 100%;
+         
+            }
+
+        
+.container2  {background-color:#121212 ;
+    width: 100%;
+ 
+   height:4300px;}
+
+   .container2  h1{color:white;
+     font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.cds1 {display: flex;
+      flex-direction: column;}
+
+.cd1 { 
+          margin:auto;
+        
+  background-color:white;
+ border-radius: 15px;
+  margin-top: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     height: 415px;
+    width: 250px;}
+
+
+.cd1:hover {
+        transform: translatey(5px);
+          border: none;
+          border-radius: 18px;
+              transition: 0.3s;}
+
+
+
+.cd1 img {height: 250px;
+   border-radius: 15px;
+
+             margin-top: 30px;
+          position: relative;
+          left: 24px;
+        width: 200px;}
+
+.cd1 .title {position: relative;
+  padding-top:10px;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(241, 15, 15);
+ 
+          text-align: center;}
+
+.cd1 .price{
+padding-left: 170px;
+padding-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+  
+
+}
+
+.cd1 button {background:#1e90ff;
+   text-transform: uppercase;
+  cursor: pointer;
+     margin-top: 25px;
+      margin-left: 75px;
+  width: 100px;
+    border-radius: 5px;
+   border: none ;
+             height: 35px;}
+
+.cd1 button:hover {background-color: #121212;
+     transition: 0.6s;}
+  
+
+ 
+
+.cd1 button a {text-decoration: none;
+  font-weight: 600;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 15px;
+                color: rgb(255, 255, 255);}
+
+
+
+.container3  {background-color:#121212 ;
+  width: 100%;
+   height: 4300px;}
+
+
+ .container3  h1{color:white;
+     font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center }
+
+  .container4 {
+    align-items: center;
+    padding-right: 70px;
+    background-color:#121212 ;
+    height: 1100px;
+text-align: center;
+      padding-top: 40px;   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            display: flex;
+          flex-direction: column;}
+
+
+  .first {width: 320px;
+  
+      height: 232px;
+
+  padding-top: 10px;
+    }
+ 
+  .first h4 a{font-size: 20px;
+  
+    color: white;
+    text-decoration: none
+ 
+          }
+
+  .first h4:hover{transform: translatex(7px);
+          transition: 0.7s;}
+
+
+  .first ul {padding-top: 7px;
+      padding-left: 20px;}
+
+  .first ul li {list-style: none;
+        padding-top: 15px;}
+
+  .first ul li a {text-decoration: none;
+    font-size: 17px;
+                color: gray;}
+
+ .first ul li a:hover  { 
+                     transition: 0.4s;  }
+  footer  {
+    color: white;
+    height:1100px;
+    width: 100%;
+   }
+
+ 
+
+  .first ul li a:hover{transform: translatex(7px);
+          transition: 0.7s;}
+
+ 
+
+.container5  {background-color:#121212 ;
+
+   height:400px;
+   width: 100%;
+  }
+
+.container5 h1 { color:white;
+     font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  padding-top: 30px;
+  text-align: center;   }
+
+  .container5 img {height: 200px;
+                   margin-top: 50px;
+                   margin-left: 15px;
+                   width: 320px;}
+
+.marque{font-size: 17px;}
+.marque a {font-size: 20px;}
+
+
+}
